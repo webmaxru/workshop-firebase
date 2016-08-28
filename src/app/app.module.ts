@@ -16,6 +16,7 @@ import { MdMenuModule } from '@angular2-material/menu';
 import { MdTabsModule } from '@angular2-material/tabs';
 import { MdToolbarModule } from '@angular2-material/toolbar';
 import { MdTooltipModule } from '@angular2-material/tooltip';
+import { MdGridListModule } from '@angular2-material/grid-list';
 
 var config = {
     apiKey: "AIzaSyCE9PCH6nwsfT51O4PAMESQvdduDxzkJCM",
@@ -41,7 +42,8 @@ var config = {
     MdMenuModule,
     MdTabsModule,
     MdToolbarModule,
-    MdTooltipModule
+    MdTooltipModule,
+    MdGridListModule
   ],
   declarations: [
     AppComponent,
